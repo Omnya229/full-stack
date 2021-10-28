@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,.3)) , url(../images/pexels-harper-sunday-2834934.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar ul{
+    margin-left: 200px;
+}
+
+.navbar ul li a{
+    letter-spacing: 3px;
+}
+
+.navbar ul li a:hover{
+    color: #c79e88 !important;
+}
+
+.label{
+    margin-top: 300px;
+    position: absolute;
+    width: 200px;
+    letter-spacing: 4px;
+}
+
+h2::after{
+    display: block;
+    content: "";
+    background-color: #c79e88;
+    height: 3px;
+    width: 300px;
+    margin: 20px auto;
+    
+}
+
+.us{
+    background-image:  linear-gradient(rgba(0,0,0,0.2) , rgba(0,0,0,.2)) ,  url(../images/green2.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact{
+    background-color: black;
+}
+
+#contact ul li {
+    list-style: none;
+}
+
+#contact ul li a{
+    text-decoration: none;
+    color: #c79e88 !important;
+}
+
+.email{
+    border: white solid 2px;
+    background-color: black !important;
+}
+
+.icons i{
+    padding-right: 15px;
+    color: #c79e88;
+    font-size: 25px;
+}
+
+.rr::after{
+    content: "";
+    height: 1px;
+    width: 800px;
+    background-color: rgba(255, 255, 255, 0.548);
+    margin-left: 150px;
+}
+
+
+
+
